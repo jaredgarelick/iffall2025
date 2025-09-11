@@ -1,0 +1,91 @@
+body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(233, 233, 233);
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(129, 129, 129, 0.5);
+}
+
+h1 {
+    font-family: "raleway", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "raleway", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+code {
+    color:navy;
+    font-size: 15px;
+}
+
+.normaltext {
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.boldweight {
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.italicstyle {
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.widespacing {
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    letter-spacing: 25%;
+}
+
+.narrowspacing {
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    letter-spacing: -10%;
+}
+
+.uppercase {
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.lowercase {
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.capitalize {
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.underline {
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.strikethrough {
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    text-decoration:line-through;
+}
