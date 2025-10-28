@@ -1,0 +1,365 @@
+
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_hasbro {
+    display: inline-block;
+    margin-top: 100px;
+    padding: 14px 35px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #00bfff, #0066ff);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+  a#btn_hasbro:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px rgba(0,191,255,0.6);
+    background: linear-gradient(145deg, #00e0ff, #0077ff);
+  }
+  
+  a#btn_harleydavidson {
+    display: inline-block;
+    margin-top: 100px;
+    padding: 14px 35px;
+    font-family: "Slabo 27px", serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: #ff6600;
+    background: #111;
+    border: 3px solid #ff6600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+  }
+  a#btn_harleydavidson:hover {
+    color: #111;
+    background: linear-gradient(145deg, #ff6600, #ff9900);
+    box-shadow: 0 0 40px 10px rgba(255,102,0,0.6);
+    transform: scale(1.08);
+  }
+  
+  a#btn_lyft {
+    display: inline-block;
+    margin-top: 100px;
+    padding: 14px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #ff00bf, #ff88e1);
+    transition: all 0.5s ease;
+  }
+  a#btn_lyft:hover {
+    background: linear-gradient(270deg, #ff88e1, #ff00bf);
+    box-shadow: 0 0 35px rgba(255,0,191,0.6);
+    transform: translateY(-6px) scale(1.08);
+  }
+  
+  a#btn_cartoonnetwork {
+    display: inline-block;
+    margin-top: 100px;
+    padding: 15px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: large;
+    color: #000000;
+    background: repeating-linear-gradient(45deg, #000 0 25%, #fff 25% 50%);
+    background-size: 100px 100px;
+    transition: all 0.4s ease;
+  }
+  a#btn_cartoonnetwork:hover {
+    background-size: 20px 20px;
+    color: #ffffff;
+    background-color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255,255,255,0.3);
+  }
+
+  a#btn_cartoonnetwork span {
+    mix-blend-mode: difference;
+  }
+  
+  a#btn_fitbit {
+    display: inline-block;
+    margin-top: 100px;
+    padding: 14px 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #00b0b9;
+    border: 2px solid #00b0b9;
+    border-radius: 40px;
+    position: relative;
+    transition: all 0.4s ease;
+  }
+  a#btn_fitbit:hover {
+    color: #fff;
+    background: #00b0b9;
+    box-shadow: 0 0 25px rgba(0,176,185,0.6);
+    transform: scale(1.05);
+  }
+  
+  a#btn_instagram {
+    display: inline-block;
+    margin-top: 100px;
+    padding: 14px 40px;
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background: conic-gradient(from 180deg, #fdf497, #fd5949, #d6249f, #285AEB, #fdf497);
+    background-size: 200%;
+    transition: all 0.5s ease;
+  }
+  a#btn_instagram:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(214,36,159,0.7);
+    filter: brightness(1.2);
+  }
+  
+  a#btn_oldnavy {
+    display: inline-block;
+    margin-top: 100px;
+    padding: 14px 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    background: linear-gradient(135deg, #1a3365, #324c8a);
+    border-radius: 50px;
+    transition: all 0.4s ease;
+  }
+  a#btn_oldnavy:hover {
+    background: linear-gradient(135deg, #324c8a, #1a3365);
+    box-shadow: 0 0 25px rgba(50,76,138,0.6);
+    border-style: solid;
+    transform: scale(1.07);
+  }
+  
+  a#btn_newyorker {
+    display: inline-block;
+    margin-top: 100px;
+    padding: 12px 30px;
+    font-family: 'Times New Roman', serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000;
+    background: #fff;
+    border: 2px solid #000;
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+  }
+  a#btn_newyorker:hover {
+    color: #fff;
+    background: #000;
+    box-shadow: 0 0 30px rgba(255,255,255,0.3);
+    letter-spacing: 3px;
+  }
+  
+  a#btn_npr {
+    display: inline-block;
+    margin-top: 100px;
+    padding: 14px 35px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #c22d2d 33%, #2e2e2e 33% 66%, #1e6ebd 66%);
+    background-size: 200%;
+    transition: all 0.5s ease;
+  }
+  a#btn_npr:hover {
+    background-position: 100% 0;
+    transform: scale(1.08);
+    box-shadow: 0 0 25px rgba(30,110,189,0.5);
+  }
+  
+  a#btn_facebook {
+    display: inline-block;
+    margin-top: 100px;
+    padding: 14px 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    background: #1877f2;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+  }
+  a#btn_facebook::after {
+    content: "";
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 0; height: 0;
+    background: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.6s ease;
+  }
+  a#btn_facebook:hover::after {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+  a#btn_facebook:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px rgba(24,119,242,0.6);
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
