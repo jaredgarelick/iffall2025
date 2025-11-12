@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+  }
+
+  h1, h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Antic Didone", serif;
+  }
+
+  h1 {
+    font-size: 100px;
+    color: #ffe312;
+    text-align: left;
+    margin-top: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+
+  h2 {
+    font-size: 3.5em;
+    margin-bottom: 0.3em;
+    color: #fff;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 1.5em;
+    font-family: "Anonymous Pro", monospace;
+  }
+
+  section {
+    position: absolute;
+    max-width: 500px;
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.05);
+    backdrop-filter: blur(6px);
+  }
+
+  img {
+    position:absolute;
+  }
+
+  .cells {
+    max-width: 100%;
+    margin-top: 10px;
+    filter: grayscale(10);
+  }
+
+  .veins {
+    height: 300px;
+    width: 1000px;
+    filter: grayscale(10);
+  }
+
+  .prionmodel {
+    max-width: 100%;
+    margin-top: 10px;
+    filter: grayscale(10);
+  }
+
+  .brain {
+    width: 500px;
+    margin-top: 10px;
+    filter: grayscale(10);
+  }
+
+  .cow {
+    width: 800px;
+    margin-top: 10px;
+    filter: grayscale(10);
+  }
+
+  .bg1 {
+    position: absolute;      
+    top: 0;
+    left: 0;
+    width: 2000px;
+    filter: grayscale(10) blur(5px) opacity(50%);
+    z-index: -10;  
+  }
+
+  .bg2 {
+    position: absolute;      
+    top: 0;
+    left: 0;
+    width: 1000px;
+    filter: grayscale(10) blur(5px) opacity(30%);
+    z-index: -10;  
+  }
+
+  .bg1 {top: 0px; }
+  .bg2 {top: 2500px; left: 25%;}
+  .cells {top: 750px; right: -10%}
+  .veins {top:1800px; left: -5%}
+  .prionmodel {top:2800px; left: 10%}
+  .brain {top:3200px; left:25%}
+  .cow {top:4000px; right:5%}
+  #intro { top: 860px; left: 10%; }
+  #diseases { top: 1200px; right: 12%; }
+  #structure { top: 2150px; left: 15%; }
+  #cjd { top: 2600px; right: 8%; }
+  #transmission { top: 3500px; left: 18%; }
+
+  body::after {
+    content: "";
+    display: block;
+    height: 4100px;
+  }
+
+  @media (max-width: 1024px) {
+    h1 {
+      font-size: 60px;
+      padding: 0 40px;
+      margin-top: 80px;
+      text-align: center;
+    }
+  
+    section {
+      position: static;
+      margin: 40px auto;
+      width: 90%;
+      max-width: 600px;
+    }
+  
+    img {
+      position: relative;
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 20px auto;
+    }
+  
+    .bg1 {
+      width: 100%;
+      height: auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      opacity: 0.5;
+      filter: grayscale(10) blur(5px);
+    }
+  
+  
+    body::after {
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 40px;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  
+    h2 {
+      font-size: 2em;
+    }
+  
+    p {
+      font-size: 1.1em;
+    }
+
+  }
